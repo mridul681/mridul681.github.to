@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mridul Gupta's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            margin-top: 30px;
+        }
+        .project, .contact, .hobbies, .education {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project h3, .contact h2, .hobbies h2, .education h2 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #4CAF50;
+            color: #fff;
+            display: inline;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #about img {
+            border-radius: 50%;
+            margin-top: 20px;
+            width: 100px; /* Shortened width */
+            height: 100px; /* Shortened height */
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mridul Gupta's Portfolio</h1>
+            <p>Student | B.Tech in Data Science</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container" id="main">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="DSC_5017.JPG" alt="Mridul Gupta's Photo">
+            <p>Hello! I'm Mridul Gupta, a student currently pursuing B.Tech with a specialization in Data Science. I'm passionate about leveraging data to solve real-world problems.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>Data Analysis</li>
+                <li>SQL</li>
+                <li>R</li>
+                <li>Statistics</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Predictive Analysis</h3>
+                <p>Developed a predictive model to forecast sales using machine learning algorithms. Utilized Python and libraries like Pandas, Scikit-learn, and Matplotlib.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Data Visualization</h3>
+                <p>Created interactive dashboards to visualize and analyze data trends. Used tools like Tableau and D3.js for creating visualizations.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Sentiment Analysis</h3>
+                <p>Implemented a sentiment analysis tool to analyze customer feedback. Employed natural language processing techniques using NLTK and Python.</p>
+            </div>
+        </section>
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <p>B.Tech in Data Science, [Your University], [Year]</p>
+            <p>High School, [Aadarsh Bal Vidhya Mandir], [Year]</p>
+        </section>
+        <section id="hobbies" class="hobbies">
+            <h2>Hobbies</h2>
+            <p>Reading, Traveling, and Photography.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: mridul@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mridulgupta" target="_blank">linkedin.com/in/mridulgupta</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mridul Gupta</p>
+    </footer>
+</body>
+</html>
